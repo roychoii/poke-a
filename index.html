@@ -195,5 +195,14 @@
         // Initialize game
         createGameBoard();
     </script>
+<script>
+    // Get the audio element
+    const clickSound = document.getElementById('clickSound');
+
+    // Example: Play sound when clicking the body (replace with your game’s clickable element)
+    document.body.addEventListener('click', function() {
+        clickSound.play();
+    });
+</script>
 </body>
 </html>
